@@ -6,7 +6,7 @@
 
 > **LeetCode Link:** 
 
-> **Solution:** [`solution_optimized.py`](./solution.py)
+> **Solution:** [`solution.py`](./solution.py)
 
 ---
 
