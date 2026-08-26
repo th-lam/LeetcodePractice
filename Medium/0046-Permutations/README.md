@@ -52,5 +52,5 @@ Find out every possible order with backtracking. At each level of recursion, cho
 ## Complexity 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
-| **Time** | O(n! × n) | There are `n!` permutations in total. Recording each valid permutation requires copying a list of length `n`. |
-| **Space** | O(n) | The recursion depth is at most `n`. The `path` and `used` arrays each consume `O(n)` auxiliary space. |
+| **Time** | O(n! × n) | There are n! permutations in total. Recording each valid permutation requires copying a list of length n. |
+| **Space** | O(n) | The recursion depth is at most n. The `path` and `used` arrays each consume O(n) auxiliary space. |
