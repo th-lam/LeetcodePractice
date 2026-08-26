@@ -1,4 +1,4 @@
-# 82. Remove Duplicates from Sorted List II
+# 46. Permutations
 
 > **Difficulty:** Medium  
 
@@ -22,7 +22,8 @@ Find out every possible order with backtracking. At each level of recursion, cho
    - `used` is a boolean array used for checking which indices in `nums` have already been used.
 
 2. **Backtrack**
-   - **Base case:** If `len(path) == len(nums)`, the current path is a valid permutation. Append a shallow copy (`path[:]`) to `res` and return.
+   - **Base case:** 
+        - If `len(path) == len(nums)`, the current path is a valid permutation. Append a shallow copy (`path[:]`) to `res` and return.
    > If `res.append(path)`, res will store the reference of `path`, which will be changed when we modifying it in the following recursion.
 
     - **Recursive case:** 
