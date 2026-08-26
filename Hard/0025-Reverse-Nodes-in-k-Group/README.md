@@ -3,6 +3,7 @@
 > **Difficulty:** Hard
 > **Tags:** Linked List
 > **LeetCode Link:** [25. Reverse Nodes in a k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/solutions/8483083/reverse-nodes-in-k-group-by-ehgrd-4k73)
+
 > **Solution:** [`solution.py`](./solution.py)
 
 ---
@@ -13,7 +14,7 @@ Separate the list into segment at a time using two pointers. For each segment, r
 
 ## Approach
 
-1. **Initialize:**:
+1. **Initialize:**
     - Use a `dummyHead` to simplify edge cases, allowing every segment to be processed with identical logic.
     - `left` pointer anchors the last node of the previous segment. After a new segment is reversed, `left` is connected to the new head of the reversed segment. 
     - `right` pointer scans forward to identify complete segments of `k` nodes. Once `right` has moved `k` steps, the segment bounded by `left.next` and `right` is ready for reversal.
@@ -27,6 +28,10 @@ Separate the list into segment at a time using two pointers. For each segment, r
     - After reversal, `left` and `right` are both moved to `groupTail` (which is now the last node of the reversed group), and then continue to scan for the next segment.
 
 ## Complexity 
+|   | Complexity | Explanation |
+|--------|-----------|-------------|
+| **Time** | O(n) | Each node is visited at most once. |
+| **Space** | O(1) | Only a constant number of pointers; in-place rewiring. |
 |--------|-----------|-------------|
 | **Time** | O(n) | Every node is visited at most twice: once by `right` during scanning, and once during the in-group reversal. |
 | **Space** | O(1) | Only a fixed number of pointer variables are used. |
