@@ -1,7 +1,9 @@
 # 82. Remove Duplicates from Sorted List II
 
 > **Difficulty:** Medium  
+
 > **Tags:** Linked List  
+
 > **LeetCode Link:** [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/solutions/8483626/remove-duplications-from-sorted-list-ii-jhctm)
 
 > **Solution:** [`solution_optimized.py`](./solution_optimized.py)

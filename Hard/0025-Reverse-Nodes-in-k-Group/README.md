@@ -1,7 +1,9 @@
 # 25. Reverse Nodes in a k-Group
 
 > **Difficulty:** Hard
+
 > **Tags:** Linked List
+
 > **LeetCode Link:** [25. Reverse Nodes in a k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/solutions/8483083/reverse-nodes-in-k-group-by-ehgrd-4k73)
 
 > **Solution:** [`solution.py`](./solution.py)
@@ -29,9 +31,6 @@ Separate the list into segment at a time using two pointers. For each segment, r
 
 ## Complexity 
 |   | Complexity | Explanation |
-|--------|-----------|-------------|
-| **Time** | O(n) | Each node is visited at most once. |
-| **Space** | O(1) | Only a constant number of pointers; in-place rewiring. |
 |--------|-----------|-------------|
 | **Time** | O(n) | Every node is visited at most twice: once by `right` during scanning, and once during the in-group reversal. |
 | **Space** | O(1) | Only a fixed number of pointer variables are used. |
