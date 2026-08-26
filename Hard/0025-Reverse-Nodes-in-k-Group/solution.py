@@ -24,37 +24,29 @@ class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         if k == 1: return head
 
-        lPointer = rPointer = head
-        count = 1
-        isFirstRun = True
-        prevLPointer = None
+        dummyHead = ListNode(next=head)
+        left = right = dummyHead
+        count = 0
 
-        while rPointer.next is not None:
-            rPointer = rPointer.next
+        while right.next is not None:
+            right = right.next
             count += 1
 
             if count == k:
-                tempHead = lPointer
-
-                for i in range(k-1):
-                    prevHead = tempHead
-                    tempHead = lPointer.next
-                    nextN = tempHead.next
-                    tempHead.next = prevHead
-                    lPointer.next = nextN
+                groupPrev = groupTail = left.next
                 
-                if isFirstRun:
-                    head = tempHead
-                    isFirstRun = False
-                else:
-                    prevLPointer.next = tempHead
+                for _ in range(k-1):
+                    groupHead = groupTail.next
+                    groupNext = groupHead.next
+                    groupHead.next, groupTail.next = groupPrev, groupNext
+                    groupPrev = groupHead
 
-                rPointer = lPointer    
-                prevLPointer = lPointer
-                lPointer = lPointer.next
+                left.next = groupPrev
+                left = right = groupTail
                 count = 0
+        
+        return dummyHead.next
 
-        return head
 
 """
 Time complexity = O(n)
