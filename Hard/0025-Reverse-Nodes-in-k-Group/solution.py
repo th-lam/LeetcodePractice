@@ -13,12 +13,6 @@ The number of nodes in the list is n.
 1 <= k <= n <= 5000
 0 <= Node.val <= 1000
 """
-from typing import Optional
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
 
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
