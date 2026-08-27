@@ -17,19 +17,19 @@ Treat every character (and every pair of adjacent characters) as the center of a
 ## Approach
 
 1. **Expand around center**
-   - For each character in `s`, treat it as a `center` to expand outward continuously when the characters of `left` and `right` are equal.
+    - For each character in `s`, treat it as a `center` to expand outward continuously when the characters of `left` and `right` are equal.
 
 2. **Check both odd and even length cases**
-  - For each index `center` in the `s`:
+    - For each index `center` in the `s`:
     - **Odd length:** `expandFromCenter(center, center)`, the center is a single character.
     - **Even length:** `expandFromCenter(center, center + 1)`, the center lies between two characters.
 
 3. **Track the maximum**
-  - After each expansion, compare the current palindrome length with `maxLen`.
-  - If a longer palindrome is found, update `maxLen` and `maxStart`.
+    - After each expansion, compare the current palindrome length with `maxLen`.
+    - If a longer palindrome is found, update `maxLen` and `maxStart`.
 
 4. **Return**
-  - Extract and return the substring from `maxStart` with length `maxLen`.
+    - Extract and return the substring from `maxStart` with length `maxLen`.
 
 ## Complexity 
 |   | Complexity | Explanation |

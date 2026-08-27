@@ -7,7 +7,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 **Easy: 0**
 
-**Medium: 4**
+**Medium: 5**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
