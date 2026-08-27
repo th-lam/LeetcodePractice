@@ -6,7 +6,7 @@
 
 > **LeetCode Link:** 
 
-> **Solution:** [`solution_optimized.py`](./solution.py)
+> **Solution:** [`solution.py`](./solution.py)
 
 ---
 
@@ -23,7 +23,8 @@ Find out every possible order with backtracking. At each level of recursion, cho
 
 2. **Backtrack**
    - **Base case:** 
-        - If `len(path) == len(nums)`, the current path is a valid permutation. Append a shallow copy (`path[:]`) to `res` and return.
+        - If `len(path) == len(nums)`, the current path is a valid permutation. Append a shallow copy (`res.append(path[:])`) to `res` and return.
+
    > If `res.append(path)`, res will store the reference of `path`, which will be changed when we modifying it in the following recursion.
 
     - **Recursive case:** 
@@ -32,7 +33,7 @@ Find out every possible order with backtracking. At each level of recursion, cho
         - Otherwise, mark `used[i] = True`, append `nums[i]` to `path`, and recursively call `backtrack()` to fill the next position.
         - **Undo:** After the recursive call returns, set `used[i] = False` and `pop()` from `path`. This restores the state so the parent level can try the next candidate.
     
-    > Example: num = [1,2,3]
+    > Example: `nums` = [1,2,3]
 
     > **Recursion 1**: [1] -> backtrack()
 
@@ -43,9 +44,9 @@ Find out every possible order with backtracking. At each level of recursion, cho
 
     > **Recursion 4**: Base case -> return
 
-    > **Return Recursion 3**: -> set 3 to be unused -> [1, 2] -> Loop is finished -> return
+    > **Return Recursion 3**: -> mark 3 to be unused -> [1, 2] -> Loop is finished -> return
 
-    > **Return Recursion 2**: -> set 2 to be unused -> [1] -> continue loop -> [1, 3] -> backtrack()
+    > **Return Recursion 2**: -> mark 2 to be unused -> [1] -> continue loop -> [1, 3] -> backtrack()
 
     > **Recursion 3**: 1 is used -> [1, 3, 2] -> backtrack()
 
