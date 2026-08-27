@@ -11,9 +11,9 @@ A personal repository of LeetCode solutions to document my learning process.
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
-| 0046 | Permutations | Array, Backtracking | [1](./Medium/0046-Permutations) | python | 26/08/2026 |
-| 0047 | Permutations II | Array, Backtracking | [1](./Medium/0047-Permutations-II) | python | 27/08/2026 |
-
+| 0046 | Permutations | Backtracking | [1](./Medium/0046-Permutations) | python | 26/08/2026 |
+| 0047 | Permutations II | Backtracking | [1](./Medium/0047-Permutations-II) | python | 27/08/2026 |
+| 0077 | Combinations | Backtracking | [1](./Medium/0077-Combinations) | python | 27/08/2026 |
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
