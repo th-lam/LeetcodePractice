@@ -19,7 +19,7 @@ The approach is similar to 46. Permutations. However, we need to skip a number i
 1. **Backtracking:**
     - The detailed approach of backtracking can refer to 46. Permutations
 
-2. **Preparation:**
+2. **Preprocess:**
     - Sort `nums` so that duplicates are grouped together so that we can check whether a number's predecessor share the same value with it.
 
 3. **Pruning rule:**
