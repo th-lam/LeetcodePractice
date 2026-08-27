@@ -6,7 +6,7 @@
 
 > **LeetCode Link:** [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/solutions/8483626/remove-duplications-from-sorted-list-ii-jhctm)
 
-> **Solution:** [`solution_optimized.py`](./solution_optimized.py)
+> **Solution:** [`solution_two_pointers.py`](./solution_optimized.py)
 
 ---
 
@@ -33,8 +33,17 @@ Traverse the sorted list once, identifying consecutive duplicate values and skip
 
 ## Alternative
 > **Tags:** Linked List, Hash Table  
-> **Solution:** [`solution_alternative.py`](./solution_alternative.py)
+> **Solution:** [`solution_hash_table.py`](./solution_alternative.py)
 
+---
+
+## Intuition
  Traverse the list once to identify which values are unique and which appear multiple times. Use a dictionary to store the first node encountered for each value. If the value appears again, we mark it for complete removal. Reconstruct the result list by linking only the nodes whose values are marked as unique.
 
  This approach require O(n) space but it can work from unsorted list.
+
+ ## Complexity 
+|   | Complexity | Explanation |
+|--------|-----------|-------------|
+| **Time** | O(n) | The list is traversed once. |
+| **Space** | O(n) | The dictionary consume `n` space to store `n` nodes. |

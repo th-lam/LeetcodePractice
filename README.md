@@ -14,6 +14,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0046 | Permutations | Backtracking | [1](./Medium/0046-Permutations) | python | 26/08/2026 |
 | 0047 | Permutations II | Backtracking | [1](./Medium/0047-Permutations-II) | python | 27/08/2026 |
 | 0077 | Combinations | Backtracking | [1](./Medium/0077-Combinations) | python | 27/08/2026 |
+| 0005 | Longest Palindromic Substring | String, Two pointers | [1](./Medium/0005-Longest-Palindromic-Substring) | python | 27/08/2026 |
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
