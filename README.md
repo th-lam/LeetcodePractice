@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 7**
+**Total: 8**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -30,4 +30,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0005 | Longest Palindromic Substring | Manacher | [2](./Medium/0005-Longest-Palindromic-Substring) | python | 27/08/2026 |
 | 0131 | Palindrome Partitioning | Backtracking | [1](./Medium/0131-Palindrome-Partitioning) | python | 28/08/2026 |
 
-**Easy: 0**
+**Easy: 1**
+| ID | Title | Tags | Solution | Language | Date |
+|---|-------|:-----:|:---:|:-----:|------|
+| 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
