@@ -16,7 +16,7 @@ Find every valid combination by adding one parenthesis at a time.  Add a open pa
 
 ## Approach
 1. **Recursive Tree**
-   - ![Generate Parentheses Recursive Tree](../../assets\0022-Generate-Parentheses\generate_parentheses_recursive_tree.png)
+   - ![Generate Parentheses Recursive Tree](../../assets/0022-Generate-Parentheses/generate_parentheses_recursive_tree.png)
 
 2. **Add open parenthesis first:**
    - If `openCount < n`, append `(` and recurse with `openCount + 1`.
