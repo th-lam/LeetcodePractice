@@ -6,7 +6,7 @@
 
 > **LeetCode Link:** [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/solutions/8483626/remove-duplications-from-sorted-list-ii-jhctm)
 
-> **Solution:** [`solution_two_pointers.py`](./solution_optimized.py)
+> **Solution:** [`solution_two_pointers.py`](./solution_two_pointers.py)
 
 ---
 
@@ -33,7 +33,7 @@ Traverse the sorted list once, identifying consecutive duplicate values and skip
 
 ## Alternative
 > **Tags:** Linked List, Hash Table  
-> **Solution:** [`solution_hash_table.py`](./solution_alternative.py)
+> **Solution:** [`solution_hash_table.py`](./solution_hash_table.py)
 
 ---
 
