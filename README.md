@@ -13,14 +13,14 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 8**
+**Total: 9**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0025 | Reverse Nodes in a k-Group | Linked List | [1](./Hard/0025-Reverse-Nodes-in-k-Group/) | python | 25/08/2026 |
 
-**Medium: 6**
+**Medium: 7**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
@@ -29,6 +29,8 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0077 | Combinations | Backtracking | [1](./Medium/0077-Combinations) | python | 27/08/2026 |
 | 0005 | Longest Palindromic Substring | Manacher | [2](./Medium/0005-Longest-Palindromic-Substring) | python | 27/08/2026 |
 | 0131 | Palindrome Partitioning | Backtracking | [1](./Medium/0131-Palindrome-Partitioning) | python | 28/08/2026 |
+| 0022 | Generate-Parentheses | Backtracking | [1](./Medium/0022-Generate-Parentheses) | python | 28/08/2026 |
+
 
 **Easy: 1**
 | ID | Title | Tags | Solution | Language | Date |
