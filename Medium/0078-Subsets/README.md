@@ -16,7 +16,7 @@ Append the current subset to the result list at every recursive step. Then, star
 
 ## Approach
 1. **Recursive Tree**
-   - ![Subsets Recursive Tree](../../assets/0022-Subsets/subsets_recursive_tree.png)
+   - ![Subsets Recursive Tree](../../assets/0078-Subsets/subsets_recursive_tree.png)
 
 2. **Record the current subset**
    - At the beginning of each recursive step, append a shallow copy (`path[:]`) to `res`. This includes the empty subset `[]` and all combinations.
