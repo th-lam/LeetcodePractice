@@ -37,3 +37,5 @@ A personal repository of LeetCode solutions to document my learning process.
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
+| 0001 | Two Sum | Hash table | [1](./Easy/0001-Two-Sum/) | python | 31/08/2026 |
+

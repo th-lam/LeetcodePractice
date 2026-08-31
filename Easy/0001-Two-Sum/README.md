@@ -12,10 +12,10 @@
 
 ## Intuition
 
-Traverse the array once while storing the complement of each number in a hash map. If the current number has already been stored as a compliment by a previous element, return the indices.
+Traverse the array once while storing the complement of each number in a hash table. If the current number has already been stored as a compliment by a previous element, return the indices.
 
 ## Complexity 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
-| **Time** | O(n) | Each number is visited once in the worst case. Hashmap operations are O(1) on average. |
-| **Space** | O(n) | The hashmap stores n elements in the worst case. |
+| **Time** | O(n) | Each number is visited once in the worst case. Hash table operations are O(1) on average. |
+| **Space** | O(n) | The hash table stores n elements in the worst case. |
