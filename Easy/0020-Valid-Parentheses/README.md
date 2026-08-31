@@ -17,5 +17,5 @@ Use a stack to store unmatched open parenthesis. When encountering a closing par
 ## Complexity 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
-| **Time** | O(n) | Each character is processed once in the worst case; stack push and pop operations are O(1). |
+| **Time** | O(n) | Each character is processed once in the worst case. Stack push and pop operations are O(1). |
 | **Space** | O(n) | The stack store `n` characters in the worst case (e.g., `(((((`). |
