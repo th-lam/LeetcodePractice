@@ -32,7 +32,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0022 | Generate-Parentheses | Backtracking | [1](./Medium/0022-Generate-Parentheses) | python | 28/08/2026 |
 | 0078 | Subsets | Backtracking | [1](./Medium/0078-Subsets) | python | 29/08/2026 |
 | 0090 | Subsets II | Backtracking | [1](./Medium/0090-Subsets-II) | python | 29/08/2026 |
-| 0015 | 3Sum | Two Pointers | [1](./Medium/0015-Sum3) | python | 31/08/2026 |
+| 0015 | 3Sum | Two Pointers | [1](./Medium/0015-3Sum) | python | 31/08/2026 |
 
 **Easy: 2**
 | ID | Title | Tags | Solution | Language | Date |
