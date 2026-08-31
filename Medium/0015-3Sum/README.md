@@ -24,13 +24,15 @@ Sort the array to bring duplicates together, then fix one number and reduce the 
    - If `i > 0` and `nums[i] == nums[i-1]`, skip to avoid duplicate triplets.
 
 3. **Two-pointer search**
+   - ![Two pointer search](../../assets/0015-3Sum/3sum_two_pointer_search.png)
    - Set `left = i + 1` and `right = len(nums) - 1`.
    - While `left < right`:
        - If the sum of `nums[left]` and `nums[right]` is less than the target `0 - nums[i]`, move `left` rightward.
        - If the sum is greater, move `right` leftward.
        - If the sum equals the target, record the triplet.
 
-4. **Skip duplicates for the pair**
+4. **Skip duplicates**
+   - ![Skip duplicates](../../assets/0015-3Sum/3sum_skip_duplicates.png)
    - After finding a valid pair, use a while loop to move `left` and `right` past the duplicate values.
 
 ## Complexity 
