@@ -16,14 +16,14 @@ Sort the array to bring duplicates together, then fix one number and reduce the 
 
 ## Approach
 1. **Sort**
-   - Sort `nums` to enable duplicate skipping.
+   - Sort `nums` to enable duplicate skipping two-pointer scan.
 
 2. **Fix the first number**
-   - Iterate `i` from `0` to `len(nums) - 2`. This is because the triplets require at least three number to form.
+   - Iterate `i` over `range(len(nums) - 2)`. This is because a triplet require at least three number to form.
    - If `nums[i] > 0`, break immediately. Given that the array is sorted, all remaining numbers are non-negative and cannot sum to zero.
    - If `i > 0` and `nums[i] == nums[i-1]`, skip to avoid duplicate triplets.
 
-3. **Two-pointer search**
+3. **Two-pointer scan**
    - ![Two pointer search](../../assets/0015-3Sum/3sum_two_pointer_search.png)
    - Set `left = i + 1` and `right = len(nums) - 1`.
    - While `left < right`:
