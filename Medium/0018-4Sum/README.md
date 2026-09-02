@@ -21,13 +21,13 @@ Sort the array and fix two numbers with nested loops to reduce the problem to a 
 2. **Fix the first number**
    - Loop `i` over `range(len(nums) - 3)`.
    - If `i > 0` and `nums[i] == nums[i-1]`, skip to avoid duplicate quadruplets.
-   - Compute the smallest possible sum for this fixed `i`. If it already exceeds `target`, break the outer loop because all larger `i` will only increase the sum.
+   - Compute the smallest possible sum (`nums[i] + nums[i+1] + nums[i+2] + nums[i+3]`) for this fixed `i`. If it exceeds `target`, break the outer loop because all larger `i` will only increase the sum.
 
 3. **Fix the second number**
    - Loop `j` over `range(i + 1, len(nums) - 2)`.
    - If `j > i + 1` and `nums[j] == nums[j-1]`, skip to avoid duplicate quadruplets.
-   - Compute the smallest possible sum for this pair `(i, j)`. If it exceeds `target`, break the inner loop.
-   - Compute the greatest possible sum for this pair `(i, j)`. If it is still below `target`, continue to the next `j`.
+   - Compute the smallest possible sum (`nums[i] + nums[j] + nums[j+1] + nums[j+2]`) for this pair `(i, j)`. If it exceeds `target`, break the inner loop.
+   - Compute the greatest possible sum (`nums[i] + nums[j] + nums[-2] + nums[-1]`) for this pair `(i, j)`. If it is still below `target`, continue to the next `j`.
 
 4. **Two-pointer scan**
     - Set `left = j + 1` and `right = len(nums) - 1`.
@@ -44,4 +44,4 @@ Sort the array and fix two numbers with nested loops to reduce the problem to a 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
 | **Time** | O(n ^ 3) | The two outer loop runs O(n ^ 2) times. The inner two-pointer scan runs O(n) for each fixed pair. Sorting costs O(n log n), which is dominated by O(n ^ 3). |
-| **Space** | O(1) | Only a fixed amount of extra space is used for the pointers. This excludes the output space required to store all quadruplets.|
+| **Space** | O(1) | Only a constant number of pointers are used. This excludes the output space required to store all quadruplets.|

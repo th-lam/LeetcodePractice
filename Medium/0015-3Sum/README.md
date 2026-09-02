@@ -39,4 +39,4 @@ Sort the array to bring duplicates together, then fix one number and reduce the 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
 | **Time** | O(n ^ 2) | The outer loop runs O(n) times. The inner two-pointer scan runs O(n) for each fixed `i`. Sorting costs O(n log n), which is dominated by O(n ^ 2). |
-| **Space** | O(1) | Only a fixed amount of extra space is used for the pointers. This excludes the output space required to store all triplets.|
+| **Space** | O(1) | Only a constant number of pointers are used. This excludes the output space required to store all triplets.|
