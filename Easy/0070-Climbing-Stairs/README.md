@@ -4,7 +4,7 @@
 
 > **Tags:** Binary Search
 
-> **LeetCode Link:** [69. Sqrt(x)](https://leetcode.com/problems/climbing-stairs)
+> **LeetCode Link:** [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 
 > **Solution:** [`solution.py`](./solution.py)
 
