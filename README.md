@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 16**
+**Total: 17**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -36,10 +36,10 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0016 | 3Sum Closest | Two Pointers | [1](./Medium/0016-3Sum-Closest) | python | 01/09/2026 |
 | 0018 | 4Sum | Two Pointers | [1](./Medium/0018-4Sum) | python | 01/09/2026 |
 
-**Easy: 3**
+**Easy: 4**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
 | 0001 | Two Sum | Hash table | [1](./Easy/0001-Two-Sum/) | python | 31/08/2026 |
 | 0035 | Search Insert Position | Binary Search | [1](./Easy/0035-Search-Insert-Position/) | python | 02/09/2026 |
-
+| 0069 | Sqrt(x) | Binary Search | [1](./Easy/0069-Sqrt(x)/) | python | 03/09/2026 |

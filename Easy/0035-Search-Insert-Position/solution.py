@@ -33,9 +33,6 @@ class Solution:
         return left
 
 """
-Constraints:
-1 <= nums.length <= 104
--104 <= nums[i] <= 104
-nums contains distinct values sorted in ascending order.
--104 <= target <= 104
+Time complexity = O(log n)
+Space complexity = O(1)
 """
