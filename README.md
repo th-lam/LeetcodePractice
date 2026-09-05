@@ -44,5 +44,5 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0001 | Two Sum | Hash table | [1](./Easy/0001-Two-Sum/) | python | 31/08/2026 |
 | 0035 | Search Insert Position | Binary Search | [1](./Easy/0035-Search-Insert-Position/) | python | 02/09/2026 |
 | 0069 | Sqrt(x) | Binary Search | [1](./Easy/0069-Sqrt(x)/) | python | 03/09/2026 |
-| 0070 | Climbing Stairs | Binary Search | [1](./Easy/0070-Climbing-Stairs/) | python | 03/09/2026 |
-| 0026 | Remove Duplicates from Sorted Array | Binary Search | [1](./Easy/0026-Remove-Duplicates-from-Sorted-Array/) | python | 05/09/2026 |
+| 0070 | Climbing Stairs | Dynamic Programming | [1](./Easy/0070-Climbing-Stairs/) | python | 03/09/2026 |
+| 0026 | Remove Duplicates from Sorted Array | Two Pointers | [1](./Easy/0026-Remove-Duplicates-from-Sorted-Array/) | python | 05/09/2026 |

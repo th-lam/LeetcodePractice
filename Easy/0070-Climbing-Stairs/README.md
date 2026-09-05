@@ -2,7 +2,7 @@
 
 > **Difficulty:** Easy  
 
-> **Tags:** Binary Search
+> **Tags:** Dynamic Programming
 
 > **LeetCode Link:** [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
 
