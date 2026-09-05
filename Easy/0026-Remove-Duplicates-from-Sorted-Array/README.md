@@ -12,7 +12,7 @@
 
 ## Intuition
 
-Since the array is sorted, all duplicate values appear consecutively. Use a slow pointer to mark the last unique element and a fast pointer to scan for the next element. When a new unique element is found, move the slow pointer forward and overwrite that position with the new element .
+Since the array is sorted, all duplicate values appear consecutively. We can determine whether a value is unique by comparing it with its previous element. Use a slow pointer to mark the last unique element and a fast pointer to scan through the array. When the value of the element marked by the fast pointer is different with the value of the element marked by the slow pointer, a new unique element is found. Then, move the slow pointer forward and overwrite that position with the new unique element .
 
 ## Complexity 
 |   | Complexity | Explanation |
