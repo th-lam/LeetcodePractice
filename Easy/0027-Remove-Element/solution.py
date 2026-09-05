@@ -15,7 +15,7 @@ Note that the five elements can be returned in any order.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 """
 
-
+ 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         left = 0
@@ -26,3 +26,8 @@ class Solution:
                 left += 1
         
         return left
+
+"""
+Time complexity = O(n)
+Space complexity = O(1)
+"""
