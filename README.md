@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 19**
+**Total: 20**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -37,7 +37,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0018 | 4Sum | Two Pointers | [1](./Medium/0018-4Sum) | python | 01/09/2026 |
 | 0006 | Zigzag Conversion | String | [1](./Medium/0006-Zigzag-Conversion) | python | 05/09/2026 |
 
-**Easy: 5**
+**Easy: 6**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
@@ -45,3 +45,4 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0035 | Search Insert Position | Binary Search | [1](./Easy/0035-Search-Insert-Position/) | python | 02/09/2026 |
 | 0069 | Sqrt(x) | Binary Search | [1](./Easy/0069-Sqrt(x)/) | python | 03/09/2026 |
 | 0070 | Climbing Stairs | Binary Search | [1](./Easy/0070-Climbing-Stairs/) | python | 03/09/2026 |
+| 0026 | Remove Duplicates from Sorted Array | Binary Search | [1](./Easy/0026-Remove-Duplicates-from-Sorted-Array/) | python | 05/09/2026 |
