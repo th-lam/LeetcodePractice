@@ -36,6 +36,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0016 | 3Sum Closest | Two Pointers | [1](./Medium/0016-3Sum-Closest) | python | 01/09/2026 |
 | 0018 | 4Sum | Two Pointers | [1](./Medium/0018-4Sum) | python | 01/09/2026 |
 | 0006 | Zigzag Conversion | String | [1](./Medium/0006-Zigzag-Conversion) | python | 05/09/2026 |
+| 0039 | Combination Sum | Backtracking | [1](./Medium/0039-Combination-Sum) | python | 11/09/2026 |
 
 **Easy: 7**
 | ID | Title | Tags | Solution | Language | Date |
