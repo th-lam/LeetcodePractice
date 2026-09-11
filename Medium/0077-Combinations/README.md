@@ -4,7 +4,7 @@
 
 > **Tags:** Backtracking
 
-> **LeetCode Link:** [47. Permutations II](https://leetcode.com/problems/combinations/solutions/8485236/combinations-by-ehgrd-9u1x)
+> **LeetCode Link:** [77. Combinations](https://leetcode.com/problems/combinations/solutions/8485236/combinations-by-ehgrd-9u1x)
 
 > **Solution:** [`solution.py`](./solution.py)
 
