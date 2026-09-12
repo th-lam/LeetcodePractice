@@ -13,14 +13,14 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 22**
+**Total: 23**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0025 | Reverse Nodes in a k-Group | Linked List | [1](./Hard/0025-Reverse-Nodes-in-k-Group/) | python | 25/08/2026 |
 
-**Medium: 14**
+**Medium: 15**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
@@ -37,6 +37,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0018 | 4Sum | Two Pointers | [1](./Medium/0018-4Sum) | python | 01/09/2026 |
 | 0006 | Zigzag Conversion | String | [1](./Medium/0006-Zigzag-Conversion) | python | 05/09/2026 |
 | 0039 | Combination Sum | Backtracking | [1](./Medium/0039-Combination-Sum) | python | 11/09/2026 |
+| 0040 | Combination Sum II | Backtracking | [1](./Medium/0040-Combination-Sum-II) | python | 12/09/2026 |
 
 **Easy: 7**
 | ID | Title | Tags | Solution | Language | Date |

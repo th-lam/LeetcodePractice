@@ -29,14 +29,14 @@ class Solution:
         res = []
         path = []
 
-        def backtrack(cur, total):
+        def backtrack(start, total):
             if total > target:
                 return
             elif total == target:
                 res.append(path[:])
                 return
 
-            for i in range(cur, len(candidates)):
+            for i in range(start, len(candidates)):
                 path.append(candidates[i])
 
                 backtrack(i, total + candidates[i])
