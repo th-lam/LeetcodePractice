@@ -40,8 +40,4 @@ class Solution:
 """
 Time complexity = O(2 ^ n)
 Space complexity = O(n)
-
-N = number of candidates
-T = value of target
-M = value of the minimum candidate
 """
