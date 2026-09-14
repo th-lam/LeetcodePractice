@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 24**
+**Total: 25**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -40,7 +40,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0040 | Combination Sum II | Backtracking | [1](./Medium/0040-Combination-Sum-II) | python | 12/09/2026 |
 | 0055 | Jump Game | Greedy | [1](./Medium/0055-Jump-Game) | python | 14/09/2026 |
 
-**Easy: 7**
+**Easy: 8**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
@@ -50,3 +50,4 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0070 | Climbing Stairs | Dynamic Programming | [1](./Easy/0070-Climbing-Stairs/) | python | 03/09/2026 |
 | 0026 | Remove Duplicates from Sorted Array | Two Pointers | [1](./Easy/0026-Remove-Duplicates-from-Sorted-Array/) | python | 05/09/2026 |
 | 0027 | Remove Element | Two Pointers | [1](./Easy/0027-Remove-Element/) | python | 05/09/2026 |
+| 0083 | Remove Duplicates from Sorted List | Linked List | [1](./Easy/0083-Remove-Duplicates-from-Sorted-List/) | python | 14/09/2026 |
