@@ -8,12 +8,6 @@ Input: s = "aab"
 Output: [["a","a","b"],["aa","b"]]
 """
 
-"""
-Constraints:
-1 <= s.length <= 16
-s contains only lowercase English letters.
-"""
-
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
         res = []

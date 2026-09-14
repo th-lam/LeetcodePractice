@@ -15,13 +15,6 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 """
 
-"""
-Constraints:
-1 <= nums.length <= 3 * 104
--100 <= nums[i] <= 100
-nums is sorted in non-decreasing order.
-"""
-
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         left = 0

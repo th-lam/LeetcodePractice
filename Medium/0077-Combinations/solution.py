@@ -11,11 +11,6 @@ Note that combinations are unordered,
 i.e., [1,2] and [2,1] are considered to be the same combination.
 """
 
-"""
-Constraints:
-1 <= n <= 20
-1 <= k <= n
-"""
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res = []

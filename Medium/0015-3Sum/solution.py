@@ -14,12 +14,6 @@ The distinct triplets are [-1,0,1] and [-1,-1,2].
 Notice that the order of the output and the order of the triplets does not matter.
 """
 
-"""
-Constraints:
-3 <= nums.length <= 3000
--105 <= nums[i] <= 105
-"""
-
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         res = []

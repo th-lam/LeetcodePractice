@@ -9,13 +9,6 @@ Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 """
 
-"""
-Constraints:
-3 <= nums.length <= 500
--1000 <= nums[i] <= 1000
--104 <= target <= 104
-"""
-
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums.sort()

@@ -7,13 +7,6 @@ If the number of nodes is not a multiple of k then left-out nodes, in the end, s
 You may not alter the values in the list's nodes, only nodes themselves may be changed.
 """
 
-"""
-Constraints:
-The number of nodes in the list is n.
-1 <= k <= n <= 5000
-0 <= Node.val <= 1000
-"""
-
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         if k == 1: return head

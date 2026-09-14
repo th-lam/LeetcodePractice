@@ -7,12 +7,6 @@ Input: nums = [1,2,2]
 Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]
 """
 
-"""
-Constraints:
-1 <= nums.length <= 10
--10 <= nums[i] <= 10
-"""
-
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         nums.sort()

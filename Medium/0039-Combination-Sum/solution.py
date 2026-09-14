@@ -16,14 +16,6 @@ Explanation:
 These are the only two combinations.
 """
 
-"""
-Constraints:
-1 <= candidates.length <= 30
-2 <= candidates[i] <= 40
-All elements of candidates are distinct.
-1 <= target <= 40
-"""
-
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         res = []

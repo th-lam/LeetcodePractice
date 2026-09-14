@@ -10,11 +10,6 @@ Explanation: The square root of 8 is 2.82842...,
 and since we round it down to the nearest integer, 2 is returned.
 """
 
-"""
-Constraints:
-0 <= x <= 231 - 1
-"""
-
 class Solution:
     def mySqrt(self, x: int) -> int:
         left, right = 0, x

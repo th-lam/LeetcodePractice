@@ -6,12 +6,6 @@ Input: nums = [1,1,2]
 Output: [[1,1,2], [1,2,1], [2,1,1]]
 """
 
-"""
-Constraints:
-1 <= nums.length <= 8
--10 <= nums[i] <= 10
-"""
-
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
