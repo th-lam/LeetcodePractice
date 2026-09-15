@@ -13,14 +13,14 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 27**
+**Total: 28**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0025 | Reverse Nodes in a k-Group | Linked List | [1](./Hard/0025-Reverse-Nodes-in-k-Group/) | python | 25/08/2026 |
 
-**Medium: 18**
+**Medium: 19**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
@@ -39,8 +39,9 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0039 | Combination Sum | Backtracking | [1](./Medium/0039-Combination-Sum) | python | 11/09/2026 |
 | 0040 | Combination Sum II | Backtracking | [1](./Medium/0040-Combination-Sum-II) | python | 12/09/2026 |
 | 0055 | Jump Game | Greedy | [1](./Medium/0055-Jump-Game) | python | 14/09/2026 |
-| 0061 | Rotate List | Linked List | [1](./Medium/0061-Rotate-List) | python | 15/09/2026 |
+| 0061 | Rotate List | Linked List | [1](./Medium/0061-Rotate-LIst) | python | 15/09/2026 |
 | 0086 | Partition List | Linked List | [1](./Medium/0086-Partition-List) | python | 15/09/2026 |
+| 0092 | Reverse Linked List II | Linked List | [1](./Medium/0092-Reverse-Linked-List-II) | python | 15/09/2026 |
 
 **Easy: 8**
 | ID | Title | Tags | Solution | Language | Date |
