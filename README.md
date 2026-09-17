@@ -13,14 +13,14 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 29**
+**Total: 30**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0025 | Reverse Nodes in a k-Group | Linked List | [1](./Hard/0025-Reverse-Nodes-in-k-Group/) | python | 25/08/2026 |
 
-**Medium: 19**
+**Medium: 20**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
@@ -42,6 +42,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0061 | Rotate List | Linked List | [1](./Medium/0061-Rotate-LIst) | python | 15/09/2026 |
 | 0086 | Partition List | Linked List | [1](./Medium/0086-Partition-List) | python | 15/09/2026 |
 | 0092 | Reverse Linked List II | Linked List | [1](./Medium/0092-Reverse-Linked-List-II) | python | 15/09/2026 |
+| 0053 | Maximum Subarray | Array | [1](./Medium/0053-Maximum-Subarray) | python | 17/09/2026 |
 
 **Easy: 9**
 | ID | Title | Tags | Solution | Language | Date |
