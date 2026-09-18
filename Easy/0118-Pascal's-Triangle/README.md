@@ -17,5 +17,5 @@ Build the triangle row by row. Each new row starts and ends with 1. Each number 
 ## Complexity 
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
-| **Time** | O(n ^ 2) |  |
-| **Space** | O(n ^ 2) |  |
+| **Time** | O(n ^ 2) | The outer loop runs up to `rowIndex` times, and the inner loop runs up to `rowIndex` times. |
+| **Space** | O(n ^ 2) | All rows of the triangle are stored in the result. |
