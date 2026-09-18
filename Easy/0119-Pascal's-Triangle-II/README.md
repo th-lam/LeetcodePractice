@@ -21,4 +21,4 @@ Construct an array of all 1s to represent the target row. For each level, update
 |   | Complexity | Explanation |
 |--------|-----------|-------------|
 | **Time** | O(n ^ 2) | The outer loop runs up to `rowIndex` times, and the inner loop runs up to `rowIndex` times. |
-| **Space** | O(n) | Only a single array of length `rowIndex + 1` is used. |
+| **Space** | O(n) | Only a single array of length `rowIndex + 1` is used.
