@@ -57,5 +57,5 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0083 | Remove Duplicates from Sorted List | Linked List | [1](./Easy/0083-Remove-Duplicates-from-Sorted-List/) | python | 14/09/2026 |
 | 0066 | Plus One | Array | [1](./Easy/0066-Plus-One/) | python | 17/09/2026 |
 | 0118 | Pascal's Triangle | Dynamic Programming | [2](./Easy/0118-Pascal's-Triangle/) | python | 18/09/2026 |
-| 0119 | Pascal's Triangle II | Dynamic Programming | [2](./Easy/0119-Pascal's-Triangle-ii/) | python | 18/09/2026 |
+| 0119 | Pascal's Triangle II | Dynamic Programming | [2](./Easy/0119-Pascal's-Triangle-II/) | python | 18/09/2026 |
 
