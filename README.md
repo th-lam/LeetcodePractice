@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 30**
+**Total: 31**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -44,7 +44,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0092 | Reverse Linked List II | Linked List | [1](./Medium/0092-Reverse-Linked-List-II) | python | 15/09/2026 |
 | 0053 | Maximum Subarray | Array | [1](./Medium/0053-Maximum-Subarray) | python | 17/09/2026 |
 
-**Easy: 9**
+**Easy: 10**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
@@ -56,3 +56,5 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0027 | Remove Element | Two Pointers | [1](./Easy/0027-Remove-Element/) | python | 05/09/2026 |
 | 0083 | Remove Duplicates from Sorted List | Linked List | [1](./Easy/0083-Remove-Duplicates-from-Sorted-List/) | python | 14/09/2026 |
 | 0066 | Plus One | Array | [1](./Easy/0066-Plus-One/) | python | 17/09/2026 |
+| 0118 | Pascal's Triangle | Dynamic Programming | [1](./Easy/0118-Pascal's-Triangle/) | python | 18/09/2026 |
+
