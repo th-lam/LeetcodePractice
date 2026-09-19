@@ -13,7 +13,7 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 32**
+**Total: 33**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
@@ -44,7 +44,7 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0092 | Reverse Linked List II | Linked List | [1](./Medium/0092-Reverse-Linked-List-II) | python | 15/09/2026 |
 | 0053 | Maximum Subarray | Array | [2](./Medium/0053-Maximum-Subarray) | python | 17/09/2026 |
 
-**Easy: 11**
+**Easy: 12**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0020 | Valid Parentheses | Stack | [1](./Easy/0020-Valid-Parentheses/) | python | 28/08/2026 |
@@ -58,4 +58,4 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0066 | Plus One | Array | [1](./Easy/0066-Plus-One/) | python | 17/09/2026 |
 | 0118 | Pascal's Triangle | Dynamic Programming | [2](./Easy/0118-Pascal's-Triangle/) | python | 18/09/2026 |
 | 0119 | Pascal's Triangle II | Dynamic Programming | [2](./Easy/0119-Pascal's-Triangle-II/) | python | 18/09/2026 |
-
+| 0121 | Best Time to Buy and Sell Stock | Array | [1](./Easy/0121-Best-Time-to-Buy-and-Sell-Stock/) | python | 19/09/2026 |
