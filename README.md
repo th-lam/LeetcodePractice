@@ -3,14 +3,14 @@ A personal repository of LeetCode solutions to document my learning process.
 
 ## Problem List
 
-**Total: 35**
+**Total: 36**
 
 **Hard: 1**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0025 | Reverse Nodes in a k-Group | Linked List | [1](./Hard/0025-Reverse-Nodes-in-k-Group/) | python | 25/08/2026 |
 
-**Medium: 22**
+**Medium: 23**
 | ID | Title | Tags | Solution | Language | Date |
 |---|-------|:-----:|:---:|:-----:|------|
 | 0082 | Remove Duplicates from Sorted List II | Linked List | [2](./Medium/0082-Remove-Duplicates-from-Sorted-List-II) | python | 26/08/2026 |
@@ -34,7 +34,8 @@ A personal repository of LeetCode solutions to document my learning process.
 | 0092 | Reverse Linked List II | Linked List | [1](./Medium/0092-Reverse-Linked-List-II) | python | 15/09/2026 |
 | 0053 | Maximum Subarray | Array | [2](./Medium/0053-Maximum-Subarray) | python | 17/09/2026 |
 | 0062 | Unique-Paths | Dynamic Programming | [2](./Medium/0062-Unique-Paths) | python | 20/09/2026 |
-| 0063 | Unique-Paths-II | Dynamic Programming | [2](./Medium/0063-Unique-Paths-II) | python | 20/09/2026 |
+| 0063 | Unique-Paths-II | Dynamic Programming | [1](./Medium/0063-Unique-Paths-II) | python | 20/09/2026 |
+| 0134 | Gas Station | Greedy | [1](./Medium/0134-Gas-Station) | python | 20/09/2026 |
 
 **Easy: 12**
 | ID | Title | Tags | Solution | Language | Date |
